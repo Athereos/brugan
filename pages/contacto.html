@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/syle.css" />
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="../index.html"><img src="../img/joya.png"></a></li>
+                <li><a href="../index.html">INICIO</a></li>
+                <li><a href="./productos.html">PRODUCTOS</a></li>
+                <li><a href="./galeria.html">GALERÍA</a></li>
+                <li><a href="./nosotros.html">NOSOTROS</a></li>
+                <li><a href="./contacto.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="main-contacto">
+                <h1>CONTACTO</h1>   
+            </div> 
+        </section>
+        <section>
+            <div class="main-formulario"> 
+                <div class="contacto-formulario">
+                    <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+                        <div class="row">
+                            <label class="required" for="name">Your name:</label><br />
+                            <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+                            <span id="name_validation" class="error_message"></span>
+                        </div>
+                        <div class="row">
+                            <label class="required" for="email">Your email:</label><br />
+                            <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+                            <span id="email_validation" class="error_message"></span>
+                        </div>
+                        <div class="row">
+                            <label class="required" for="message">Your message:</label><br />
+                            <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+                            <span id="message_validation" class="error_message"></span>
+                        </div>
+                            
+                        <input id="submit_button" type="submit" value="Send email" />
+                    </form>
+                </div>
+                <div class="contacto-ubicacion">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6278.775384410273!2d-103.38977894902037!3d20.654024847335116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428addbc3675311%3A0x7aa507b12ad54379!2sJewelery%20Center%20WTC!5e0!3m2!1sen!2smx!4v1670291972318!5m2!1sen!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div> 
+        </section>
+        <section>
+            <div class="contacto-informacion">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a 
+                    galley of type and scrambled it to make a type specimen book. It has survived not only five centuries
+                    , but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset 
+                    sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p> 
+                
+             </div>
+        </section>
+    </main>
+    <footer>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="#">FACEBOOK</a></li>
+                <li><a href="#">INSTAGRAM</a></li>
+                <li><a href="#">YOUTUBE</a></li>
+                <li><a href="#">AVISO DE PRIVACIDAD</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>

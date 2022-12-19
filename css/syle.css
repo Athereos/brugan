@@ -1,0 +1,206 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: 'Adam-Bold';
+    src: url('../fonts/Adam-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'NexaL';
+    src: url('../fonts/Nexa Light.otf') format('truetype');
+}
+body{
+    background-color: #f1f1f1;
+    font-family: 'NexaL';
+    color:#666666;
+}
+
+header{
+    background-color: #111111;
+}
+
+.nav-menu{
+    padding: 20px;
+    text-align: center;
+}
+
+.nav-menu ul{
+    list-style-type: none;
+}
+
+.nav-menu ul li{
+    display: inline-block;
+    padding: 0px 30px;
+    vertical-align: middle;
+}
+
+.nav-menu ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-menu img{
+    height: 50px;
+    width: 50px;
+    padding-right: 200px;
+}
+
+.tituloProducto {
+    font-family: 'Adam-Bold'!important;
+    font-size: 23px;
+}
+
+.main-banner{
+    height: 70vh;
+    background-attachment: fixed;
+    background-size:100% auto;
+    background-image: url("../img/bgBrugan.jpg");
+    text-align: center;
+}
+
+.main-banner img{
+    height: 100%
+}
+
+.main-text{ 
+    margin: 100px 0px;
+    padding: 5px 300px;
+}
+
+.main-text h1{
+    text-align: center;
+    font-size: 30px;   
+}
+
+.main-text p{
+    text-align: justify;
+    margin-top: 50px;
+    font-size: 20px;   
+}
+
+.main-collections {
+    display: flex;
+}
+
+.main-collections img{
+    width: 25%;
+    height: auto;
+}
+
+
+footer{
+    background-color: #111111;
+    
+}
+
+.product-tittle{ 
+    margin: 100px 0px;
+    padding: 5px 300px;
+}
+
+.product-tittle h1{
+    text-align: center;
+    font-size: 30px;   
+}
+
+.product-list p{
+    text-align: justify;
+    margin-top: 50px;
+    font-size: 20px;   
+}
+
+.product-list {
+    display: flex;
+    padding: 0px 50px;
+    margin-bottom: 300px;
+}
+
+.product-list img{
+    width: 25%;
+    height: auto;
+}
+
+.images-tittle{ 
+    margin: 100px 0px;
+    padding: 5px 300px;
+}
+
+.images-tittle h1{
+    text-align: center;
+    font-size: 30px;   
+}
+
+.images-list p{
+    text-align: justify;
+    margin-top: 50px;
+    font-size: 20px;   
+}
+
+.images-list {
+    display: flex;
+    padding: 0px 50px;
+    margin-bottom: 300px;
+}
+
+.images-list img{
+    width: 50%;
+    height: auto;
+}
+
+.main-nosotros{
+    margin: 100px 0px;
+    padding: 5px 300px;
+    text-align: center;
+}
+
+.main-nosotros h1{
+    font-size: 30px; 
+    margin-bottom: 50px;
+}
+
+.content-nosotros{
+    margin: 100px 0px;
+    padding: 5px 300px;
+    text-align: center;
+    display: flex;
+}
+
+.content-nosotros img{
+    height: 500px;
+    width: auto;
+}
+
+.content-nosotros p{
+    text-align: justify;
+    font-size: 20px; 
+    padding: 0px 50px;
+}
+
+.main-contacto{
+    margin: 100px 0px;
+    padding: 5px 300px;
+    text-align: center;
+}
+
+.main-contacto h1{
+    font-size: 30px; 
+    margin-bottom: 50px;
+}
+.main-formulario{
+    margin: 100px 0px;
+    padding: 5px 300px;
+    text-align: center;
+    display: flex;
+}
+.contacto-formulario{
+   margin: 30px 200px;
+}
+
+.contacto-informacion{
+    margin: 100px 0px;
+    padding: 50px 300px;
+    text-align: justify;
+}
