@@ -128,14 +128,16 @@ footer{
     height: auto;
     margin: 15px;
     filter: gray;
+    transition: all;
     -webkit-filter: grayscale(1);
     -webkit-transition: all .3s ease-in-out;
 }
 
 .product-list img:hover{
     filter: none;
+    transform: scale();
     -webkit-filter: grayscale(0);
-    -webkit-transform: scale(1.1);
+    -webkit-transform: scale(1.04);
 }
 
 

@@ -1,0 +1,56 @@
+@import '../base/variables';
+
+.main-contacto{
+    @extend %titulo;
+    h1{
+        font-size: 30px; 
+        margin-bottom: 50px;
+    }
+}
+
+.main-formulario{
+    @include main (100%,50px,150px,grid,repeat(2,1fr),400px,15px)  
+}
+
+.contacto-formulario{
+    text-align: right;
+    padding: 30px;
+ }
+
+ .contacto-informacion{
+    margin: 100px 0px;
+    padding: 50px 300px;
+    text-align: justify;
+
+}
+
+
+
+.video-responsive {
+	height: 0;
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	position: relative;
+    iframe {
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+    object {
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+    embed {
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+}

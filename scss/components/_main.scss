@@ -1,0 +1,38 @@
+@import '../base/variables';
+
+.main-text{ 
+    @extend %titulo;
+    h1{       
+        font-size: 30px;   
+    }
+    p{
+        text-align: justify;
+        margin-top: 50px;
+        font-size: 20px;   
+    }
+}
+
+.tituloProducto {
+    font-family: 'Adam-Bold'!important;
+    font-size: 23px;
+}
+.main-banner{
+    height: 70vh;
+    background-attachment: fixed;
+    background-size:100% auto;
+    background-image: url("../img/bgBrugan.jpg");
+    text-align: center;
+    img{
+        height: 100%
+    }
+}
+
+
+
+.main-collections {
+    display: flex;
+    img{
+        width: 25%;
+        height: auto;
+    }
+}

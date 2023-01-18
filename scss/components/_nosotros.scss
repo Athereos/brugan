@@ -1,0 +1,26 @@
+@import '../base/variables';
+
+.main-nosotros{  
+    @extend %titulo;
+    h1{
+        font-size: 30px; 
+        margin-bottom: 50px;
+    }
+}
+
+.content-nosotros{
+    @include main (100%,50px,150px,grid,repeat(2,1fr),400px,15px)  
+}
+
+.nosotros-item{
+    padding: 0 30px;
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    span{
+        text-align: justify;
+        font-size: 20px; 
+    }
+}
