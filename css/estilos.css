@@ -96,10 +96,11 @@ header {
 .product-list {
   width: 100%;
   display: flex;
-  padding: 0px 50px;
+  padding: 0px 0px;
   margin-bottom: 300px;
   justify-content: space-evenly;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  text-align: center; }
   .product-list img {
     width: 450px;
     height: auto;
@@ -306,6 +307,10 @@ footer {
     gap: 10px; }
   .images-item {
     grid-column: span 1;
-    grid-row: span 1; } }
+    grid-row: span 1; }
+  .product-list {
+    padding: 0px 0px; }
+  .product-list img {
+    width: 200px; } }
 
 /* Media query */

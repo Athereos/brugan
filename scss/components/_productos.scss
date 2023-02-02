@@ -16,10 +16,11 @@
 .product-list {
     width: 100%;
     display: flex;
-    padding: 0px 50px;
+    padding: 0px 0px;
     margin-bottom: 300px;
     justify-content:space-evenly;
     flex-wrap: wrap;
+    text-align: center;
     img{
         width: 450px;
         height: auto;
